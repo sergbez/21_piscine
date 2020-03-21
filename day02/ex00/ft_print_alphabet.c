@@ -10,17 +10,17 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-void    ft_putchar(char);
+void	ft_putchar(char);
 
-void    ft_print_alphabet(void)
+void	ft_print_alphabet(void)
 {
-    char    c;
+	char	c;
 
-    c = 'a';
-    while (c <= 'z')
-    {
-        ft_putchar(c);
-        c++;
-    }
-    ft_putchar('\n');
+	c = 'a';
+	while (c <= 'z')
+	{
+		ft_putchar(c);
+		c++;
+	}
+	ft_putchar('\n');
 }
