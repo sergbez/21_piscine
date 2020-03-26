@@ -1,25 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_print_numbers.c                                 :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: osuggs <osuggs@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/21 19:56:18 by osuggs            #+#    #+#             */
-/*   Updated: 2020/03/21 19:56:18 by osuggs           ###   ########.fr       */
+/*   Created: 2020/03/21 19:55:20 by osuggs            #+#    #+#             */
+/*   Updated: 2020/03/21 19:55:20 by osuggs           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putchar(char);
 
-void	ft_print_reverse_alphabet(void)
+void	ft_print_numbers(void)
 {
 	char	c;
 
-	c = 'z';
-	while (c >= 'a')
+	c = '0';
+	while (c <= '9')
 	{
 		ft_putchar(c);
-		c--;
+		c++;
 	}
 }

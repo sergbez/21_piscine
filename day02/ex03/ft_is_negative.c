@@ -1,25 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_print_reverse_alphabet.c                        :+:      :+:    :+:   */
+/*   ft_is_negative.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: osuggs <osuggs@student.21-school.ru>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/03/21 19:56:18 by osuggs            #+#    #+#             */
-/*   Updated: 2020/03/21 19:56:18 by osuggs           ###   ########.fr       */
+/*   Created: 2020/03/21 20:21:34 by osuggs            #+#    #+#             */
+/*   Updated: 2020/03/21 20:21:34 by osuggs           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_putchar(char);
 
-void	ft_print_reverse_alphabet(void)
+void	ft_is_negative(int n)
 {
-	char	c;
-
-	c = 'z';
-	while (c >= 'a')
-	{
-		ft_putchar(c);
-		c--;
-	}
+	if (n < 0)
+		ft_putchar('N');
+	else
+		ft_putchar('P');
 }
