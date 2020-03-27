@@ -1,10 +1,17 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_combn.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: osuggs <osuggs@student.21-school.ru>       +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/03/27 22:41:16 by osuggs            #+#    #+#             */
+/*   Updated: 2020/03/27 22:41:16 by osuggs           ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include <unistd.h>
 
-void    ft_putchar(char c)
-{
-    write(1, &c, 1);
-}
 void ft_print_combn(int n)
 {
     int a[9];
@@ -53,11 +60,4 @@ void ft_print_combn(int n)
             }
         }
     }
-}
-int    main(void)
-{
-    int n;
-    
-    ft_print_combn(n);
-    return(0);
 }
